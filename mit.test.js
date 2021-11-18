@@ -14,12 +14,12 @@ describe('MIT', () => {
     });
 
     test('Colors match', () => {
-        expect(mit.colors).toContain('Silver Gray');    
+        expect(mit.colors).toContain('pink');    
     });
 
     test('Founded range', () => {
         expect(mit.founded).toBeLessThanOrEqual(1875);
-        expect(mit.founded).toBeGreaterThanOrEqual(1850);    
+        expect(mit.founded).toBeGreaterThanOrEqual(1900);    
     });
 
     test('Motto', () => {
